@@ -1,0 +1,25 @@
+
+/* Inject icon for header */
+
+.reveal .slides h3::before {
+    font-family: 'Font Awesome\ 5 Free', 'Font Awesome\ 5 Brands';
+    content: '\f138';
+    color: #0d55ff;
+    padding-right: 10px;
+  }
+
+  /* Font settings */
+
+.reveal .slides {
+    font-family: 'Noto Sans Japanese';
+    font-weight: 200;
+    font-size: calc(22px + 0.25vw);
+    color: #232323;
+    text-align: left;
+  }
+  
+  .reveal .slides h1,
+  .reveal .slides h2 {
+    font-weight: 900;
+    text-align: center;
+  }

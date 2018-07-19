@@ -8,7 +8,7 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve",
-    "build": "grunt"
+    "build": "./node_modules/.bin/live-server"
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -37,7 +37,8 @@
     "grunt-retire": "^1.0.7",
     "grunt-zip": "~0.17.1",
     "mustache": "^2.3.0",
-    "socket.io": "^1.7.3"
+    "socket.io": "^1.7.3",
+    "live-server": "^1.0.0"
   },
   "license": "MIT"
 }
